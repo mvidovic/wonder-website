@@ -1,0 +1,18 @@
+.navLink {
+  margin-top: 5px;
+  min-height: 55px;
+  background-color: #f7f7f7;
+  color: #77777f;
+  font-weight: 500;
+  text-align: start;
+  display: flex;
+  align-items: center;
+}
+.navLink:hover {
+  background-color: #ffc925;
+  color: white; 
+}
+
+div {
+  color: #77777f;
+}

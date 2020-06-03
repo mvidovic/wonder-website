@@ -1,0 +1,25 @@
+.img {
+    height: 170px;
+}
+
+.cardBody {
+    padding: 30px 20px;
+}
+
+.cardText {
+    padding: 20px 0;
+}
+
+.button {
+  background-color: #ffc925;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(241, 190, 36);
+}

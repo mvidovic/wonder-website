@@ -1,0 +1,36 @@
+.lightboxContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1px;
+}
+
+.previewButton {
+    background: transparent;
+   border: none;
+   padding: 0;
+   margin: 0;
+}
+
+@media (max-width: 885px) {
+    .lightboxContainer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 756px) {
+    .lightboxContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 478px) {
+    .lightboxContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 390px) {
+    .lightboxContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

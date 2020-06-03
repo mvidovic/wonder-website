@@ -1,0 +1,21 @@
+.item {
+  height: 700px;
+  background: url("/house2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item2 {
+  height: 700px;
+  background: url("/house1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item3 {
+    height: 700px;
+    background: url("/house3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
